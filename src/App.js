@@ -12,7 +12,7 @@ const App = () => {
   return (
     <div>
       <center>
-        <h1> Emoji Search</h1>
+        <h1> Emoji Search</h1>h
         <div className='container'>
         <input size="30" type="text" value={search} onChange={(e) => setSearch(e.target.value)} placeholder='Search Emoji Ex: Smile,Angry'/>
         <div className='minidiv'>
